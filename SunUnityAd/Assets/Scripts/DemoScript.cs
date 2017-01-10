@@ -42,13 +42,13 @@ public class DemoScript : MonoBehaviour
         float columnOnePosition = 0.1f * Screen.width;
         float columnTwoPosition = 0.5f * Screen.width;
 
-        Rect loadInterstitialRect = new Rect(columnOnePosition, 0.2f * Screen.height, buttonWidth, buttonHeight);
+        Rect loadInterstitialRect = new Rect(columnOnePosition, 0.3f * Screen.height, buttonWidth, buttonHeight);
         if (GUI.Button(loadInterstitialRect, "load\nInterstitial"))
         {
             this.RequestInterstitial();
         }
 
-        Rect showInterstitialRect = new Rect(columnTwoPosition , 0.2f * Screen.height , buttonWidth , buttonHeight);
+        Rect showInterstitialRect = new Rect(columnTwoPosition , 0.3f * Screen.height , buttonWidth , buttonHeight);
         if (GUI.Button(showInterstitialRect, "show\nIntersititial"))
         {
             this.ShowInterstitail();
