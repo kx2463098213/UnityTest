@@ -48,7 +48,7 @@ public class DemoScript : MonoBehaviour
             this.RequestInterstitial();
         }
 
-        Rect showInterstitialRect = new Rect(columnTwoPosition , 0.4f * Screen.height , buttonWidth , buttonHeight);
+        Rect showInterstitialRect = new Rect(columnTwoPosition , 0.2f * Screen.height , buttonWidth , buttonHeight);
         if (GUI.Button(showInterstitialRect, "show\nIntersititial"))
         {
             this.ShowInterstitail();
